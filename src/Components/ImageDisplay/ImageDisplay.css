@@ -1,0 +1,16 @@
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #ff0000 inset;
+    display: block;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .image-container {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  
