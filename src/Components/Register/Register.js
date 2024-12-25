@@ -23,7 +23,7 @@ class Register extends React.Component{
   }
 
   onSubmitRegister = () => {
-    fetch("https://54.253.16.78.nip.io:3001/register",
+    fetch("https://54.253.16.78.nip.io/register",
       //http://localhost:3001/register
     {
       method : "post",
