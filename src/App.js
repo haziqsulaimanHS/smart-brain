@@ -129,7 +129,7 @@ class App extends Component {
           image.src = this.state.input;
   
           // Proceed to update user entries
-          return fetch("http://54.253.16.78:3001/image", {
+          return fetch("https://54.253.16.78.nip.io:3001/image", {
             method: 'PUT',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
